@@ -9,16 +9,17 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="header">
         <div class="title">
-            <h1>Chuck Norris Facts</h1>
+            <h1>Chuck Norris Jokes</h1>
         </div>
+    </div>
 
-        <div class="ibm-plex-mono-thin menu">
-            <select>
-                <option>Nessuna categoria</option>
+        <div class="mainContent">
+            <select class=" ibm-plex-mono-thin" id="menu">
+                <option value="0">Nessuna categoria</option>
                 <option value="1">Animal</option>
-                <option value="2">Carrer</option>
+                <option value="2">Career</option>
                 <option value="3">Celebrity</option>
                 <option value="4">Dev</option>
                 <option value="5">Food</option>
@@ -32,13 +33,18 @@
                 <option value="13">Religion</option>
                 <option value="14">Science</option>
                 <option value="15">Sport</option>
-                <option value="16">Travels</option>
+                <option value="16">Travel</option>
             </select>
+
+            <div id="Jokes" class="ibm-plex-mono-thin"></div>
+
+            <form action="" method="get">
+                <input type="button" name="btn" id="bottone" value="genera">
+            </form>
         </div>
 
-        <button id="btn">Get Fact</button>
 
-    </div>
+    <script src="static/js/script.js"></script>
 </body>
 
 </html>

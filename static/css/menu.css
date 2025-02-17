@@ -1,7 +1,8 @@
-.menu {
-    font-family: IBM Plex Mono", serif;
+#menu{
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
-.menu section{
-    
+#Jokes{
+    font-weight: bold;
 }
