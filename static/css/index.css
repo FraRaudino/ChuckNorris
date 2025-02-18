@@ -3,13 +3,18 @@
 @import "commons.css";
 @import "title.css";
 
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: #ffa600;
+    height: 100%;
 }
 
-.mainContent{
+.gradiente {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffcc, #cc9900);
+}
+
+.mainContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,24 +22,24 @@ body{
     margin-top: 200px;
 }
 
-#bottone{
+#bottone {
     border-radius: 5px;
     font-size: 18px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 12px 25px;
     font-weight: bold;
     border-radius: 15px;
     margin-top: 20px;
 }
 
-#menu{
-padding: 12px;
-font-size: 18px;
-border-radius: 15px;
-border: 2px solid #000;
+#menu {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #000;
 }
 
-#menu option{
+#menu option {
     padding: 10px;
     font-size: 16px;
 }
